@@ -2,7 +2,7 @@
 import './style.css';
 
 import Vue from 'vue'
-import router from './router'
+import router from './routes'
 import App from './components/App.vue'
 
 

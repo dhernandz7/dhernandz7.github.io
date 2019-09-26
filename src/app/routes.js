@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Index from './components/Index.vue';
 import Servicios from './components/Servicios.vue';
+import NoEncontrado from './components/404.vue';
 
 Vue.use(Router)
 
@@ -9,6 +10,12 @@ export default new Router({
 	routes: [
 	{
 		path: '/',
+		name: 'inicio',
+		component: Servicios,
+		meta: {title: 'Página de inicio'}
+	},
+	{
+		path: '/index',
 		name: 'index',
 		component: Index,
 		meta: {title: 'Página de inicio'}
@@ -17,7 +24,12 @@ export default new Router({
 		path: '/servicios',
 		name: 'servicios',
 		component: Servicios,
-		meta: {title: 'Página de inicio'}
+		meta: {title: 'Mis servicios'}
+	},
+	{
+		path: '*',
+		component: NoEncontrado,
+		title: 'Página no encontrada'
 	}
 	],
 	mode: 'history',
