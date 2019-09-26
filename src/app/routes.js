@@ -11,7 +11,7 @@ export default new Router({
 	{
 		path: '/',
 		name: 'inicio',
-		component: Servicios,
+		component: Index,
 		meta: {title: 'Página de inicio'}
 	},
 	{
