@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import Cv from './components/Cv.vue';
 import Index from './components/Index.vue';
 import Servicios from './components/Servicios.vue';
 import NoEncontrado from './components/404.vue';
@@ -11,8 +12,14 @@ export default new Router({
 	{
 		path: '/',
 		name: 'inicio',
-		component: Index,
+		component: Cv,
 		meta: {title: 'Página de inicio'}
+	},
+	{
+		path: '/hoja-de-vida',
+		name: 'hoja-de-vida',
+		component: Cv,
+		meta: {title: 'Hoja de vida'}
 	},
 	{
 		path: '/index',

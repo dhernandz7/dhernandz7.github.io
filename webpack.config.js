@@ -4,12 +4,16 @@ const MiniCssExtractPlugin = require ('mini-css-extract-plugin');
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
+	devServer: {
+		inline:true
+	},
+
 	resolve: {
-        alias: {
-            vue: 'vue/dist/vue.js',
-            "vue-router": 'vue-router/dist/vue-router.js'
-        },
-    },
+		alias: {
+			vue: 'vue/dist/vue.js',
+			"vue-router": 'vue-router/dist/vue-router.js'
+		},
+	},
 	
 	entry: {
 		app: [
