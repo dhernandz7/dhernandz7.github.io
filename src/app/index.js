@@ -1,5 +1,6 @@
 // css
 import './style.css';
+import './all.js';
 
 import Vue from 'vue'
 import router from './routes'
