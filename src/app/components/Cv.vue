@@ -1,8 +1,8 @@
 <template>
 	<div class="row vh-100">
-		<!--div class="col-md-12 portada text-center text-white pt-5" style="font-size: 2rem">
+		<div class="col-md-12 portada text-center text-white pt-5" style="font-size: 2rem">
 			Desarrollador Web
-		</div-->
+		</div>
 		<div class="col-md-4 bg-dark">
 			<div class="text-center my-4">
 				<img height="100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZIIvMebaX69XxiSod3KwAyxOQvGpv0-FDJB8kFsDhK7TXrJm2Rw" alt="img" class="rounded-circle">
@@ -51,7 +51,7 @@
 				</a>
 			</div>
 		</div>
-		<div class="col-md-8 pt-3">
+		<div class="col-md-8 bg-white pt-3">
 			<p class="h5 border-bottom p-2">Acerca de mí</p>
 			<p class="text-justify">
 				Desarrollador web...
